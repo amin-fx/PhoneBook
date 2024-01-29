@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
     # Establish a connection to the PostgreSQL database with the provided parameters.
     con = psycopg2.connect(host="localhost", user="postgres",
-                           password="5560", port="5432", database='PhoneBook')
+                           password="****", port="****", database='PhoneBook')
 
     # Set isolation level to AUTOCOMMIT to ensure immediate execution and
     # auto-commit of each SQL statement without the need for explicit commits.
