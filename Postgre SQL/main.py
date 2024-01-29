@@ -38,8 +38,8 @@ def createTable(dbName, tableName, columns):
     connection = psycopg2.connect(
         host="localhost",
         user="postgres",
-        password="5560",
-        port="5432",
+        password="****",
+        port="****",
         database="PhoneBook"
     )
 
